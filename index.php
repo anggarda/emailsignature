@@ -1,10 +1,10 @@
-<!-- IFW Email Signature Generator -->
+<!-- IFW Email Signature Generator | Version 2.0-->
 
 <?php
 
 if (!empty($_REQUEST['Sender'])):
     $sender = $_REQUEST['Sender'];
-    $layout = file_get_contents('./layout.html', FILE_USE_INCLUDE_PATH);
+    $layout = file_get_contents('./layout_v2.html', FILE_USE_INCLUDE_PATH);
 
     foreach ($sender as $key => $value) {
         $key         = strtoupper($key);
@@ -182,7 +182,7 @@ else: ?><!DOCTYPE html>
 
         <div id="footer">
             <div class="container">
-		<p class="text-muted credit">developed by <a href="http://repo.anggarda.tiratana.info">IFW Tech | Frameworks Lab Tech (c) 2015</a>.</p>	   
+		<p class="text-muted credit">Developed by <a href="https://github.com/anggarda">Frameworks Lab Tech (c) 2018</a>.</p>	   
             </div>
         </div>
 
