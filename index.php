@@ -153,7 +153,7 @@ else: ?><!DOCTYPE html>
                     </div>
                     <div class="form-group">
                         <label for="Email">Email</label>
-                        <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="firstname.lastname@frameworks-studios.com">
+                        <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="firstname.lastname@infinitestudios.id or @infinitestudios.co.id">
                     </div>
                     <div class="form-group">
                         <label for="Job">Job Title</label>
